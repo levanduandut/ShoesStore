@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Shoes Store</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="profile">Profile</string>
+    <string name="home">Home</string>
+    <string name="categories">Categories</string>
+    <string name="cart">Cart</string>
+    <string name="order">Order</string>
+    <string name="others">Others</string>
+    <string name="setting">Setting</string>
+    <string name="about">About</string>
+    <string name="sign_out">Sign out</string>
+    <string name="le_duan">Le Duan</string>
+    <string name="sv_dut">SV dut</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="textabout">Hiện tại Shop đang kinh doanh các mẫu giày hot nhất của các thương hiệu nổi tiếng như Adidas, Nike, Converse, Balenciaga, Vans, Fila, ... với chất lượng cải thiện liên tục để hoàn hảo nhất cho Quý khách hàng của mình.Ngoài ra, Sneaker 365 vẫn luôn cập nhật thêm các mẫu mới nhất thị trường của nhiều thương hiệu nhằm mục đích đáp ứng nhu cầu sở hữu các đôi giày vip nhất của các bạn đam mê dòng giày sneaker nữa nhé.</string>
+    <string name="textabout1">Sản phẩm tại VietNamShoes có rất nhiều kiểu dáng va mẫu mã khác nhau, đa dạng về chiều cao, màu sắc nhu cầu sử dụng. Có nhiều bạn sẽ thích kiểu giày cổ cao, giày cổ thấp, hay chất liệu da trơn, da nhăn hoặc da lộn. Một số bạn thì lại thích vải mềm, họa tiết bông hoa hay vải lưới cho thoáng mát khi sử dụng trong vài giờ liên tục.Hiểu được mục đích của các bạn trẻ hiện đại, VietNamShoes luôn cập nhật đủ loại giày với đủ kiểu dáng, phong cách cá tính khác nhau để khi bạn tìm đến bạn sẽ tìm được cho mình những đôi giày tuyệt vời nhất trong tủ đồ của bạn.</string>
+    <string name="textabout4">Sản phẩm thuộc đồ án PBL6 của nhóm !</string>
+    <string name="textabout3">Chính vì thế mà Viet Nam Shoes muốn được là người đưa đến cho các bạn nhiều mẫu giày hơn, được tiếp cận với những mẫu giày huyền thoại, hoặc những mẫu giày mới được ưa chuộng trên thế giới.</string>
+    <string name="title_activity_onboarding">onboarding</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

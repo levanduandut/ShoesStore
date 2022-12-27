@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/conner_item"
+    android:id="@+id/layout_item"
+    android:layout_margin="2dp"
+    android:padding="6dp">
+
+    <ImageView
+        android:id="@+id/pic_product"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="2dp"
+        android:src="@drawable/ic_launcher_background"></ImageView>
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="10sp"
+        android:layout_below="@+id/pic_product"
+        android:text="Ten"
+        android:layout_width="wrap_content"
+        android:id="@+id/tv_nameproduct"
+        android:layout_height="wrap_content"></TextView>
+
+    <TextView
+        android:id="@+id/tv_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_nameproduct"
+        android:layout_marginTop="-3dp"
+        android:text="100000"
+        android:textColor="#7C7575"
+        android:textSize="15sp"
+        android:textStyle="italic"></TextView>
+
+    <TextView
+        android:id="@+id/tv_sex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tv_price"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="3dp"
+        android:layout_toEndOf="@+id/tv_price"
+        android:text="Unisex"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/tv_sale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="#F67979"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tv_last_price"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tv_price"
+        android:layout_alignEnd="@+id/tv_price"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="-123dp"
+        android:text="TextView"
+        android:textColor="#C30606"
+        android:textStyle="bold" />
+</RelativeLayout>
